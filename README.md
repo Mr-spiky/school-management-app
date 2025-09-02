@@ -3,7 +3,7 @@
 A full-stack Next.js application with MySQL for managing school data. Features form validation, image uploads, and responsive design.
 
 ## 🌐 Live Demo
-**Vercel Deployment**: [https://school-management-app.vercel.app](https://school-management-app.vercel.app)
+**Vercel Deployment**: [https://school-management-app-five-mauve.vercel.app/)
 
 ## ✨ Features
 - Add schools with form validation
@@ -17,6 +17,15 @@ A full-stack Next.js application with MySQL for managing school data. Features f
 - Tailwind CSS
 - MySQL
 - React Hook Form
+
+##📁 Project Structure
+
+app/
+├── add-school/page.js          # School form
+├── show-schools/page.js        # Schools display
+├── api/schools/route.js        # API endpoint
+lib/database.js                 # DB connection
+public/schoolImages/            # Image storage
 
 ## 🚀 Quick Start
 
@@ -52,11 +61,6 @@ DB_NAME=school_management
 ```bash
 npm run dev
 ```
-#📁 Project Structure#
+##📄 License
 
-app/
-├── add-school/page.js          # School form
-├── show-schools/page.js        # Schools display
-├── api/schools/route.js        # API endpoint
-lib/database.js                 # DB connection
-public/schoolImages/            # Image storage
+Educational project for web development assignment.
